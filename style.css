@@ -1,0 +1,23 @@
+body{
+    margin: 10px;
+}
+
+.err-text{
+    color: red !important;;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#coloredDiv {
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+    padding: 10px;
+}

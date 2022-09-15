@@ -1,0 +1,55 @@
+U ovom zadatku praviti cemo Color Generator aplikaciju. Aplikacija ima za cilj pregled odredje boje, bilo u RGB ili HEX formatu.
+Dakle korisnik unese odredjenu boju u formatu u kojem zeli, te nakon sto klikne Set, prikaze se div sa tacno takvom bojom.
+
+U prilogu imate kako sve treba izgledati na kraju.
+
+Implementirati slijedece:
+
+1. Implementirati setovanje boje po HEX standardu:
+- U `index.html` primjetiti cete input sa id-em `hexColor`, te button sa id-em `setHexBtn`
+- Takodjer tu je i div sa id-em `coloredDiv`
+- Nakon sto korisnik klikne na Set button, `coloredDiv` div treba da poprimi boju koja je jednaka unesenoj
+- Implementirati i validaciju - kada se klikne na dugme `Set`, ukoliko boja nije unesena u input, korsiniku treba da se prikaze error pruka (#hexColorError)
+- Osigurati da program radi i ako korisnik unese # na pocetku i ako ne unese
+
+
+2. Implementirati setovanje boje po RGB standardu:
+- U `index.html` primjetiti cete inpute sa id-evima `red`, `blue`, `green`, te button sa id-em `setRGBBtn`
+- Nakon sto korisnik klikne na Set button, `coloredDiv` div treba da poprimi boju koja je jednaka unesenoj u red, green i blue inputima
+- Implementirati i validaciju - kada se klikne na dugme `Set`, ukoliko neko od RGB polja nije uneseno, korisniku treba da se prikaze error pruka (#rgbError)
+
+3. Implementirati random promjenu boje div-a
+- U `index.html` primjetiti cete checkbox sa id-em `randomGenerateColor`
+- Kada korisnik klikne na ovaj checkbox svako 3 sekunde, div treba da poprimi random generiranu novu boju
+- Obratno, ako ovaj checkbox nije odabran - zaustaviti takvo ponasanje
+- Koristiti RGB format
+- U momentu kada se setuje nova boja, vrijednostima boje popuniti red, green i blue polja
+
+//English translation
+
+In this task, we will create a Color Generator application. The application is aimed at viewing a particular color, either in RGB or HEX format.
+So, the user enters a certain color in the format he wants, and after clicking Set, a div with exactly that color is displayed.
+
+Attached is how everything should look at the end.
+
+Implement the following:
+
+1. Implement color setting according to the HEX standard:
+- In `index.html` you will notice an input with the id `hexColor`, and a button with the id `setHexBtn`
+- There is also a div with the id `coloredDiv'
+- After the user clicks on the Set button, the `coloredDiv` div should take on a color equal to the one entered
+- Implement validation - when the `Set` button is clicked, if the color is not entered in the input, the user should be shown an error code (#hexColorError)
+- Ensure that the program works even if the user enters # at the beginning and if he does not
+
+
+2. Implement color setting according to the RGB standard:
+- In `index.html` you will notice inputs with the ids `red`, `blue`, `green`, and the button with the id `setRGBBtn`
+- After the user clicks on the Set button, the `coloredDiv` div should take on a color equal to the one entered in the red, green and blue inputs
+- Implement validation - when the `Set` button is clicked, if one of the RGB fields is not entered, the user should be shown an error code (#rgbError)
+
+3. Implement random div color change
+- In `index.html` you will notice a checkbox with the id `randomGenerateColor`
+- When the user clicks on this checkbox every 3 seconds, the div should take on a randomly generated new color
+- Conversely, if this checkbox is not selected - stop such behavior
+- Use RGB format
+- At the moment when the new color is set, fill the red, green and blue fields with the color values
